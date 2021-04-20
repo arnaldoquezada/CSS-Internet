@@ -46,6 +46,8 @@
     height: 500px;
     border: solid 1px black;
     padding: 15px 2px 0px 2px;
+    display: inline-block;
+    vertical-align: top
     ;
     }
     #tite-1{
@@ -118,4 +120,17 @@
         font-size: 14px;
         font-weight: normal;
         margin-left: 5px;
+    }
+#content-wrapper{
+    width: 768px;
+    height: 800px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+}
+    #main-content-top{
+        display: inline-block;
+        height: 50px;
+        width: 100%;
+        border: black 1px solid;
     }
