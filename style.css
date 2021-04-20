@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-wrapper{
+    width: 970px;
+    height: 1200px;
+    background-color:#eaeaea;
+    margin-left: 15px;
+}
+#head-content{
+   display: inline-block;    
+}
+#logo {   
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    position:relative;
+}
+
+#head-content h1{
+    margin-top: 40px;  
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    color: #474747;
+    font-weight:normal ;
+}
+#banner-head{
+    display: inline-block;
+    background-color:#5283ad;
+    width: 970px;
+    height:60px;    
+}
+
+#banner-head h2{
+    color: #f4f7fa;
+    font-size: 32px;
+    margin: 10px 0px 0px 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight:normal;
+}
+#vertical-menu{
+    width: 190px;
+    height: 500px;
+    border: solid 1px black;
+    padding: 15px 2px 0px 2px;
+    ;
+    }
+    #tite-1{
+        font-weight: bold;
+        margin-bottom: 15px;        
+    }
+    #parrafo-1{
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: left;
+        
+    }
+    #btn-videos, #btn-more-res{
+        display:inline-block;
+        text-decoration: none;
+        border: black 1px solid;
+        width: 180px;
+        margin-left: 3px;
+        margin-bottom: 3px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 2px 2px gray;
+        color: white;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    #btn-videos{
+        background-color:#407caf ;
+    }
+    #btn-more-res{
+        background-color:#ee8300;
+    }
+    #line-div{
+        width: 100%;
+        display: inline-block;
+        height: 1px;
+        background-color: #c0c0c0;
+        
+    }
+
+    #footer-content-vert{
+        margin: 10px 10px 10px 10px;
+        width: 160px;
+        height: 300px;
+        border: solid 1px black;
+        display: inline-block;
+        background-image:url(/images/ad_background.png);
+        background-repeat:no-repeat ;
+    }
+    #publicidad-text{
+        margin-top: 15px;
+        display: inline-block;
+        text-align: center;
+        color: white;
+
+    }
+    #btn-more{
+        display: inline-block;
+        text-align: center;
+        width: 140px;
+        background-color:#2ec7df;
+        padding: 4px;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 2px 2px black;
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+        margin-left: 5px;
+    }
