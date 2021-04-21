@@ -16,6 +16,7 @@
     vertical-align: top;
     margin-left: 30px;
     position:relative;
+    top: 20px;
 }
 
 #head-content h1{
@@ -31,28 +32,28 @@
     display: inline-block;
     background-color:#5283ad;
     width: 970px;
-    height:60px;    
+    height:50px;    
 }
 
 #banner-head h2{
     color: #f4f7fa;
-    font-size: 32px;
-    margin: 10px 0px 0px 30px;
+    font-size: 28px;
+    margin: 10px 0px 0px 45px;
     font-family: 'PT Sans', sans-serif;
     font-weight:normal;
 }
 #vertical-menu{
     width: 190px;
     height: 500px;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     padding: 15px 2px 0px 2px;
     display: inline-block;
-    vertical-align: top
-    ;
+    vertical-align: top;
     }
-    #tite-1{
+
+    #title-1{
         font-weight: bold;
-        margin-bottom: 15px;        
+        color: black;      
     }
     #parrafo-1{
         font-size: 14px;
@@ -73,7 +74,7 @@
         border-radius: 5px;
         box-shadow: 2px 2px gray;
         color: white;
-        text-align: center;
+        font-size: 14px;
         padding-top: 6px;
         padding-bottom: 6px;
     }
@@ -94,23 +95,25 @@
     #footer-content-vert{
         margin: 10px 10px 10px 10px;
         width: 160px;
-        height: 300px;
-        border: solid 1px black;
+        height: 245px;
+        /* border: solid 1px black; */
         display: inline-block;
         background-image:url(/images/ad_background.png);
         background-repeat:no-repeat ;
     }
     #publicidad-text{
-        margin-top: 15px;
+        margin:15px 15px 0px 15px;
         display: inline-block;
         text-align: center;
         color: white;
+        font-weight: normal;
+        font-size: 20px;
 
     }
     #btn-more{
         display: inline-block;
         text-align: center;
-        width: 140px;
+        width: 130px;
         background-color:#2ec7df;
         padding: 4px;
         text-decoration: none;
@@ -119,18 +122,81 @@
         color: white;
         font-size: 14px;
         font-weight: normal;
-        margin-left: 5px;
+         margin-left: 10px;
     }
 #content-wrapper{
-    width: 768px;
+    width: 750px;
     height: 800px;
     display: inline-block;
     border: 1px solid black;
     vertical-align: top;
+    
 }
     #main-content-top{
-        display: inline-block;
-        height: 50px;
+        display: inline-block;   
         width: 100%;
-        border: black 1px solid;
+        /* border: black 1px solid; */
     }
+        #home-box-img{
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 5px;
+            /* border: black 1px solid; */
+            vertical-align: top;
+        }
+        #home-box-text, h4{
+            display: inline-block;
+            color: #5283ad;
+            font-weight:bold;
+            margin-top: 5px;
+            font-size: 13px;
+            /* border: black 1px solid; */
+            vertical-align: top;
+        }
+
+        #contact-wrapper{            
+            display: inline-block;
+            margin-left: 500px;
+            font-size: 13px;
+            /* width: 200px; */
+            border: black 1px solid;
+            vertical-align: top;
+            text-align: top;
+        }
+        #contact-img-wrapper{
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            margin-top: 15px;
+            border: black 1px solid;
+
+        }
+        #box-text-contact{
+            width: 140px;
+            display: inline-block;
+            /* border: 1px black solid; */
+            margin-top:0;
+            vertical-align: top;
+            margin-left: 10px;
+
+        }
+            #contact-text-1{
+                display: inline-block;
+                /* border: 1px black solid; */
+                margin-top: 0;
+                vertical-align: top;
+                
+            }   
+            #contact-text-2{
+                display: inline-block;
+                /* border: 1px black solid; */
+                margin-top: 0;
+                
+            }    
+            #contact-text-3{
+                display: inline-block;
+                /* border: 1px black solid; */
+                margin-top: 0;
+                
+            }     
+        
